@@ -6,7 +6,6 @@ import java.util.Date;
 public class Main {
 
     public static void main(String[] args) throws CloneNotSupportedException {
-
         var mars = new Planet("Mars", 6566.1255, getDate(1, 1, 1610));
         var copy = (Planet)mars.clone();
 
