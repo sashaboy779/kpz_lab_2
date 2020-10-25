@@ -21,8 +21,7 @@ public class Main {
         System.out.println("Original after date change to 1700 \n" + mars);
     }
 
-    private static Date getDate(int date, int month, int year)
-    {
+    private static Date getDate(int date, int month, int year) {
         Calendar calendar = Calendar.getInstance();
 
         calendar.set(Calendar.DATE, 1);
