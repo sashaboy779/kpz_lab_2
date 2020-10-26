@@ -23,9 +23,9 @@ public class Main {
     private static Date getDate(int date, int month, int year) {
         Calendar calendar = Calendar.getInstance();
 
-        calendar.set(Calendar.DATE, 1);
-        calendar.set(Calendar.MONTH, 1);
-        calendar.set(Calendar.YEAR, 1610);
+        calendar.set(Calendar.DATE, date);
+        calendar.set(Calendar.MONTH, month);
+        calendar.set(Calendar.YEAR, year);
 
         return calendar.getTime();
     }
